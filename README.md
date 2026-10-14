@@ -221,7 +221,6 @@ class Gamer:
         print(f"Game name is {self.gn}")
         print(f"Game level is {self.l}")
 
-
 class ProGamer(Student, Gamer):
     def __init__(self, name, game_name, level, Rank):
         Student.__init__(self, name)
