@@ -159,7 +159,6 @@ Car_Showroom(self, name1, type1)
 ```
 
 These calls are incorrect because `super().__init__()` already passes `self` automatically, and `Car_Showroom(...)` creates a new object rather than initializing the current child object.
-
 For explicit parent initialization, the calls should follow this pattern:
 
 ```python
